@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="PalindromiOhjelma.app" version="1.0.0">
+  <name>KoiralleNimi</name>
+  <description>
+    Koiralle nimi
+  </description>
+  <author email="ville.niemi2@edu.vaasa.fi" href="http://vamia.fi">
+    TUL
+  </author>
+</widget>
