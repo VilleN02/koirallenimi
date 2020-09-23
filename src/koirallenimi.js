@@ -1,12 +1,12 @@
 //Koiralle nimi, TUL 19
-import {TextView, Button. contentView] from 'tabris';
+import {TextView, Button, contentView} from 'tabris';
         
 //mahdolliset nimet taulukossa
   var nimet = ["HauHau", "Muisti", "Täplä", "Jekku", "Bella", "Roki", "Jymy", "Jeri"];
        
         
 //painike
-  new button8({text: 'Mikä koiralle nimeksi?'})
+  new Button({text: 'Mikä koiralle nimeksi?'})
   .onSelect(() => arvonimi())
   .appendTo(contentView);
 
@@ -19,7 +19,7 @@ let naytanimi = new TextView({
 function arvonimi() {
   nimet = shuffle(nimet); //kutsu taulukon sekoitusta
   //näytä sekoitetusta taulukosta ensimmäinen ja toinen solu
-  naytanimi.text = 'Miten olisi ' + nimet[0] ' tai ' + nimet[1] + '?';
+  naytanimi.text = 'Miten olisi ' + nimet[0] + ' tai ' + nimet[1] + '?';
   
 }
 
