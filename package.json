@@ -1,0 +1,9 @@
+{
+  "title": "KoiralleNimi",
+  "description": "Tabris.js - KoiralleNimi",
+  "category": "Small Apps",
+  "main": "src/koirallenimi.js",
+  "dependencies": {
+    "tabris": "^2.1.0"
+  }
+}
